@@ -36,9 +36,9 @@ parts:
       - xvfb
     stage-packages:
       - ubuntu-sdk-libs
-#      - qtubuntu-desktop
-#      - qml-module-qtsysteminfo
-#      - ubuntu-defaults-zh-cn
+      - qtubuntu-desktop
+      - qml-module-qtsysteminfo
+      - ubuntu-defaults-zh-cn
     stage:
       - -usr/share/pkgconfig/xkeyboard-config.pc 
     snap:
